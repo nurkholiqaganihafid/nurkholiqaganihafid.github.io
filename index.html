@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://avatars.githubusercontent.com/u/89395541?v=4"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="https://avatars.githubusercontent.com/u/89395541?v=4"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      href="https://avatars.githubusercontent.com/u/89395541?v=4"
+      type="image/x-icon"
+      sizes="32x32"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        background: url("assets/image/bg.gif") center center / cover no-repeat
+          fixed;
+      }
+
+      header {
+        background-color: transparent;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        position: fixed;
+        width: 100%;
+        height: 35px;
+        top: 0;
+        z-index: 1000;
+        transition: background-color 0.3s ease;
+      }
+
+      #top {
+        color: white;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        width: 100%;
+        bottom: 0;
+        z-index: 1000;
+      }
+
+      footer div {
+        margin-bottom: 10px;
+      }
+
+      footer ion-icon {
+        margin-top: 8px;
+        font-size: 1.5em;
+        width: 30px;
+        color: black;
+      }
+
+      #navbar-left {
+        display: flex;
+        align-items: center;
+      }
+
+      #navbar-left h1 {
+        margin-right: 20px;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #ffcc00;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding-top: 35px;
+      }
+
+      .full-screen-splash {
+        text-align: center;
+      }
+
+      .full-screen-splash img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        max-height: 150px;
+      }
+
+      #about {
+        background-color: white;
+        padding: 20px;
+      }
+
+      #projects {
+        background: url("assets/image/bg.gif") center center / cover no-repeat
+          fixed;
+        color: white;
+        padding: 20px;
+      }
+
+      #myProjects {
+        background-color: white;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      #filters {
+        margin-bottom: 10px;
+      }
+
+      #projectList {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .project {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        width: 200px;
+      }
+
+      .project img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    <title>Portfolio | Nurkholiq Agani Hafid</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="navbar-left">
+        <h1>Nurkholiq</h1>
+      </div>
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Portfolio</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <div class="full-screen-splash">
+        <img
+          class="profile-picture"
+          src="https://avatars.githubusercontent.com/u/89395541?v=4"
+          alt="Profile image of Nurkholiq Agani Hafid"
+        />
+        <h1>Nurkholiq Agani Hafid</h1>
+        <h2>Playing Numbers</h2>
+        <div class="socials">
+          <div class="has-tooltip">
+            <a
+              href="https://github.com/nurkholiqaganihafid"
+              target="_blank"
+              rel="noopener"
+              data-umami-event="github-social-hero"
+            ></a>
+            <span class="tooltip" tip-position="bottom"
+              >nurkholiqaganihafid</span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Nurkholiq Agani Hafid from Indonesia! <br />
+        Feel free to get in touch or take a look at my past work below.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Portfolio</h2>
+    </section>
+
+    <section id="myProjects">
+      <h3>My Projects</h3>
+      <div id="filters">
+        <label>Difficulty:</label>
+        <select id="difficultyFilter">
+          <option value="all">All</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+
+        <label>Technology:</label>
+        <select id="technologyFilter">
+          <option value="all">All</option>
+          <option value="python">Python</option>
+          <option value="sql">SQL</option>
+          <option value="excel">Excel</option>
+          <option value="tableau">Tableau</option>
+          <option value="streamlit">Streamlit</option>
+        </select>
+      </div>
+
+      <div id="projectList">
+        <!-- Project items will be dynamically added here using JavaScript -->
+      </div>
+    </section>
+
+    <footer>
+      <div>Copyright &#169; 2023 | Nurkholiq Agani Hafid</div>
+      <!-- <p>Nurkholiq Agani Hafid</p> -->
+      <div>
+        <a href="https://www.instagram.com/mecoliqnur/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://github.com/nurkholiqaganihafid">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const projects = [
+          {
+            name: "Project 1",
+            difficulty: "beginner",
+            technology: "python",
+            image: "assets/image/dummy-cover.jpg",
+          },
+          {
+            name: "Project 2",
+            difficulty: "intermediate",
+            technology: "sql",
+            image: "project2.jpg",
+          },
+          // Add more projects as needed
+        ];
+
+        const projectList = document.getElementById("projectList");
+        const difficultyFilter = document.getElementById("difficultyFilter");
+        const technologyFilter = document.getElementById("technologyFilter");
+
+        function renderProjects() {
+          const filteredProjects = projects.filter(
+            (project) =>
+              (difficultyFilter.value === "all" ||
+                project.difficulty === difficultyFilter.value) &&
+              (technologyFilter.value === "all" ||
+                project.technology === technologyFilter.value)
+          );
+
+          projectList.innerHTML = "";
+          filteredProjects.forEach((project) => {
+            const projectItem = document.createElement("div");
+            projectItem.classList.add("project");
+            projectItem.innerHTML = `
+                        <img src="${project.image}" alt="${project.name}">
+                        <h3>${project.name}</h3>
+                        <p>Difficulty: ${project.difficulty}</p>
+                        <p>Technology: ${project.technology}</p>
+                    `;
+            projectList.appendChild(projectItem);
+          });
+        }
+
+        difficultyFilter.addEventListener("change", renderProjects);
+        technologyFilter.addEventListener("change", renderProjects);
+
+        renderProjects();
+      });
+
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        const top = window.scrollY;
+        if (top >= 50) {
+          header.style.backgroundColor = "#333";
+        } else {
+          header.style.backgroundColor = "transparent";
+        }
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
