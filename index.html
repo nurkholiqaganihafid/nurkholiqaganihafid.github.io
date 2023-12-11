@@ -74,11 +74,18 @@
         margin-bottom: 10px;
       }
 
-      footer ion-icon {
+      footer ion-icon,
+      .socials ion-icon {
         margin-top: 8px;
         font-size: 1.5em;
         width: 30px;
         color: white;
+      }
+
+      .socials ion-icon {
+        margin-top: -5px;
+        font-size: 2em;
+        padding: 5px;
       }
 
       #navbar-left {
@@ -178,10 +185,43 @@
       h3 {
         font-size: 1.13rem;
         margin-top: 15px;
+        text-align: center;
+      }
+
+      .card-footer h3 {
+        text-align: left;
       }
 
       #filters {
         margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      #filters label,
+      #filters select {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+
+      #filters select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+      }
+
+      #filters select:hover {
+        border-color: #666;
+      }
+
+      #filters #dropdown-1,
+      #dropdown-2 {
+        margin-right: 30px;
       }
 
       #projectList {
@@ -295,19 +335,16 @@
           <h1>Nurkholiq Agani Hafid</h1>
           <h2>Playing Numbers</h2>
 
-          <!-- <div class="socials">
-          <div class="has-tooltip">
-            <a
-              href="https://github.com/nurkholiqaganihafid"
-              target="_blank"
-              rel="noopener"
-              data-umami-event="github-social-hero"
-            ></a>
-            <span class="tooltip" tip-position="bottom"
-              >nurkholiqaganihafid</span
-            >
+          <div class="socials">
+            <div>
+              <a href="https://www.instagram.com/mecoliqnur/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="https://github.com/nurkholiqaganihafid" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </div>
           </div>
-        </div> -->
         </div>
       </div>
 
@@ -325,25 +362,38 @@
         </section>
 
         <section id="myProjects">
-          <h3>My Projects</h3>
+          <!-- <h3>My Projects</h3> -->
           <div id="filters">
-            <label>Difficulty:</label>
-            <select id="difficultyFilter">
-              <option value="all">All</option>
-              <option value="beginner">Beginner</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="advanced">Advanced</option>
-            </select>
+            <div id="dropdown-1">
+              <label>Difficulty</label>
+              <select id="difficultyFilter">
+                <option value="all">All</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
+            </div>
 
-            <label>Technology:</label>
-            <select id="technologyFilter">
-              <option value="all">All</option>
-              <option value="python">Python</option>
-              <option value="sql">SQL</option>
-              <option value="excel">Excel</option>
-              <option value="tableau">Tableau</option>
-              <option value="streamlit">Streamlit</option>
-            </select>
+            <div id="dropdown-2">
+              <label>Technology</label>
+              <select id="technologyFilter">
+                <option value="all">All</option>
+                <option value="python">Python</option>
+                <option value="sql">SQL</option>
+                <option value="excel">Excel</option>
+                <option value="tableau">Tableau</option>
+                <option value="streamlit">Streamlit</option>
+              </select>
+            </div>
+
+            <div id="dropdown-3">
+              <label>Status</label>
+              <select id="statusFilter">
+                <option value="all">All Projects</option>
+                <option value="in progress">In Progress</option>
+                <option value="completed">Completed</option>
+              </select>
+            </div>
           </div>
 
           <div id="projectList">
@@ -379,6 +429,7 @@
             url: "https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/tree/main",
             description:
               "Brazilian E-Commerce Marketplace is a real commercial dataset containing information about 100 thousand orders from 2016 to 2018 in various markets in Brazil. Analysis that can be performed includes order status, price, payment, delivery, customer location, product attributes, and customer reviews.",
+            status: "completed",
           },
           {
             name: "Building Conway's Game of Life in Python Project",
@@ -388,6 +439,7 @@
             image:
               "https://365datascience.com/resources/projects/20-newsfeed_analysis_in_tableau.webp",
             url: "#",
+            status: "in progress",
           },
           {
             name: "Tracking User Engagement with SQL, Excel, and Python Project",
@@ -397,6 +449,7 @@
             url: "https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/tree/main",
             description:
               "Brazilian E-Commerce Marketplace is a real commercial dataset containing information about 100 thousand orders from 2016 to 2018 in various markets in Brazil. Analysis that can be performed includes order status, price, payment, delivery, customer location, product attributes, and customer reviews.",
+            status: "completed",
           },
           {
             name: "Machine Learning for User Classification Project",
@@ -405,6 +458,7 @@
             image:
               "https://365datascience.com/resources/projects/15-machine_learning_for_user_classification.webp",
             url: "#",
+            status: "completed",
           },
           // Add more projects as needed
         ];
@@ -412,6 +466,7 @@
         const projectList = document.getElementById("projectList");
         const difficultyFilter = document.getElementById("difficultyFilter");
         const technologyFilter = document.getElementById("technologyFilter");
+        const statusFilter = document.getElementById("statusFilter");
 
         function renderProjects() {
           const filteredProjects = projects.filter((project) => {
@@ -426,7 +481,12 @@
                 project.technology2,
                 project.technology3,
               ].includes(technologyFilter.value);
-            return isDifficultyMatch && isTechnologyMatch;
+
+            const isStatusMatch =
+              statusFilter.value === "all" ||
+              project.status === statusFilter.value;
+
+            return isDifficultyMatch && isTechnologyMatch && isStatusMatch;
           });
 
           projectList.innerHTML = "";
@@ -457,6 +517,9 @@
                         <p>Technology: <span class="highlight">${technologies.join(
                           ", "
                         )}</span></p>
+                        <p>Status: <span class="highlight">${
+                          project.status
+                        }</span></p>
                         </div>
                         </a>
 
@@ -470,6 +533,7 @@
 
         difficultyFilter.addEventListener("change", renderProjects);
         technologyFilter.addEventListener("change", renderProjects);
+        statusFilter.addEventListener("change", renderProjects);
 
         renderProjects();
       });
