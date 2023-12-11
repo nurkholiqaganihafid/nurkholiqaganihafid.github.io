@@ -130,10 +130,6 @@
         color: #ffcc00;
       }
 
-      /* main .container-2{
-        padding: 100px;
-      } */
-
       .container-1 {
         display: flex;
         justify-content: center;
@@ -180,8 +176,8 @@
       }
 
       h3 {
-        text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.13rem;
+        margin-top: 15px;
       }
 
       #filters {
@@ -191,19 +187,76 @@
       #projectList {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
       }
 
       .project {
         border: 1px solid #ccc;
         background: white;
         margin: 10px;
-        padding: 10px;
-        width: 200px;
+        max-width: 25%;
+        width: 50%;
+        flex: 0 0 50%;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 300ms ease;
+        box-shadow: 0 3px 8px rgba(16, 20, 28, 0.15);
       }
 
-      .project img {
-        max-width: 100%;
-        height: auto;
+      .project:hover {
+        border-color: #ffcc00;
+        box-shadow: 0 3px 8px rgba(16, 20, 28, 0.3);
+      }
+
+      .project-popup {
+        display: none;
+        position: absolute;
+        background: #f8f8f8;
+        padding: 10px;
+        margin-top: 5px;
+        max-width: 50%;
+        border-radius: 5px;
+        box-shadow: 0 3px 8px rgba(16, 20, 28, 0.15);
+        z-index: 100;
+      }
+
+      .project:hover .project-popup {
+        display: block;
+      }
+
+      .project .card-body {
+        display: block;
+        text-decoration: none;
+        color: #000c1f;
+        border-radius: 10px;
+        height: 100%;
+      }
+
+      .card-footer p {
+        margin: 0;
+        font-weight: 500;
+        line-height: 164%;
+        font-size: 16px;
+      }
+
+      .card-footer .highlight {
+        text-transform: capitalize;
+        font-weight: 700;
+      }
+
+      .image-holder {
+        height: 190px;
+        position: relative;
+      }
+
+      .image-holder img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .card-footer {
+        padding: 10px;
       }
     </style>
     <title>Portfolio | Nurkholiq Agani Hafid</title>
@@ -293,7 +346,7 @@
 
     <footer>
       <div>Copyright &#169; 2023 | Nurkholiq Agani Hafid</div>
-      <!-- <p>Nurkholiq Agani Hafid</p> -->
+
       <div>
         <a href="https://www.instagram.com/mecoliqnur/">
           <ion-icon name="logo-instagram"></ion-icon>
@@ -308,16 +361,38 @@
       document.addEventListener("DOMContentLoaded", function () {
         const projects = [
           {
-            name: "Project 1",
+            name: "Tracking User Engagement with SQL, Excel, and Python Project",
+            difficulty: "beginner",
+            technology: "python, excel",
+            image: "assets/image/dummy-cover.jpg",
+            url: "https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/tree/main",
+            description:
+              "Brazilian E-Commerce Marketplace is a real commercial dataset containing information about 100 thousand orders from 2016 to 2018 in various markets in Brazil. Analysis that can be performed includes order status, price, payment, delivery, customer location, product attributes, and customer reviews.",
+          },
+          {
+            name: "Building Conway's Game of Life in Python Project",
+            difficulty: "intermediate",
+            technology: "sql",
+            image:
+              "https://365datascience.com/resources/projects/20-newsfeed_analysis_in_tableau.webp",
+            url: "#",
+          },
+          {
+            name: "Tracking User Engagement with SQL, Excel, and Python Project",
             difficulty: "beginner",
             technology: "python",
             image: "assets/image/dummy-cover.jpg",
+            url: "https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/tree/main",
+            description:
+              "Brazilian E-Commerce Marketplace is a real commercial dataset containing information about 100 thousand orders from 2016 to 2018 in various markets in Brazil. Analysis that can be performed includes order status, price, payment, delivery, customer location, product attributes, and customer reviews.",
           },
           {
-            name: "Project 2",
-            difficulty: "intermediate",
-            technology: "sql",
-            image: "assets/image/dummy-cover.jpg",
+            name: "Machine Learning for User Classification Project",
+            difficulty: "advanced",
+            technology: "streamlit",
+            image:
+              "https://365datascience.com/resources/projects/15-machine_learning_for_user_classification.webp",
+            url: "#",
           },
           // Add more projects as needed
         ];
@@ -340,10 +415,21 @@
             const projectItem = document.createElement("div");
             projectItem.classList.add("project");
             projectItem.innerHTML = `
+                        <a href="${project.url}" class="card-body">
+                        <div class="image-holder">
                         <img src="${project.image}" alt="${project.name}">
+                        </div>
+
+                        <div class="card-footer">
                         <h3>${project.name}</h3>
-                        <p>Difficulty: ${project.difficulty}</p>
-                        <p>Technology: ${project.technology}</p>
+                        <p>Difficulty: <span class="highlight">${project.difficulty}</span></p>
+                        <p>Technology: <span class="highlight">${project.technology}</span></p>
+                        </div>
+                        </a>
+
+                        <div class="project-popup">
+                        <p>${project.description}</p>
+                        </div>
                     `;
             projectList.appendChild(projectItem);
           });
