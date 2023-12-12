@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "excel",
       image: "assets/image/dummy-cover.jpg",
       url: "#",
-      description: "-",
+      description: "It's finished but not uploaded yet",
       status: "in progress",
     },
     {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "sql",
       image: "assets/image/dummy-cover.jpg",
       url: "#",
-      description: "-",
+      description: "in progress",
       status: "in progress",
     },
     {
