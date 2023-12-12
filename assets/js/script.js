@@ -1,6 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Customer Engagement Analysis",
+      difficulty: "-",
+      technology1: "excel",
+      image: "assets/image/dummy-cover.jpg",
+      url: "#",
+      description: "-",
+      status: "in progress",
+    },
+    {
       name: "SQL",
       difficulty: "-",
       technology1: "sql",
@@ -15,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "python",
       technology2: "streamlit",
       image:
-        "https://private-user-images.githubusercontent.com/89395541/282230179-c6e2b4f6-64a9-442a-ac38-26a0140a667b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNDgwOTAsIm5iZiI6MTcwMjM0Nzc5MCwicGF0aCI6Ii84OTM5NTU0MS8yODIyMzAxNzktYzZlMmI0ZjYtNjRhOS00NDJhLWFjMzgtMjZhMDE0MGE2NjdiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAyMjMxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJmNzk5OTNhNWM0Y2VlNTgyNDhhNGZhZGJmMDA2YzgwOGRmYjg4ZWFhYWI4ZTkwYjYwNWYxMjA0OTUzOWUxMmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.o8YMhHEt-Tw7LTRPe36AZD7TvmysCW8yYr94PN29y2I",
+        "https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis/assets/89395541/c6e2b4f6-64a9-442a-ac38-26a0140a667b",
       url: "https://github.com/nurkholiqaganihafid/E_Commerce_Marketplace_Analysis",
       description:
         "Provided valuable insights to e-commerce businesses on optimizing sales strategies, increasing customer satisfaction, and optimizing product delivery.",
@@ -28,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology2: "sql",
       technology3: "tableau",
       image:
-        "https://private-user-images.githubusercontent.com/89395541/271940646-043615cf-8be3-4885-984e-b8a3df66eab9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNTAyODMsIm5iZiI6MTcwMjM0OTk4MywicGF0aCI6Ii84OTM5NTU0MS8yNzE5NDA2NDYtMDQzNjE1Y2YtOGJlMy00ODg1LTk4NGUtYjhhM2RmNjZlYWI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAyNTk0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVmNzI0ODA3ZmI3ZTY0OGRjYTFlMWI1YjJmZGZlZDVlNDM2NzM4YzAzNDQxMjhmMGY3MmQ5MDA0NDhkNzU2NjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2TStCjajtcQA-6SZcQB0_BnmJZt2rvxO2Faxn7tK9C0",
+        "https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project/assets/89395541/043615cf-8be3-4885-984e-b8a3df66eab9",
       url: "https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project",
       description:
         "Assisted the marketing team in providing promotions and personal sales treatment to customers.",
@@ -40,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "python",
       technology2: "streamlit",
       image:
-        "https://private-user-images.githubusercontent.com/89395541/277867073-b2953718-3ac9-4f39-af8b-63f2df9ee8e4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNTAyMzcsIm5iZiI6MTcwMjM0OTkzNywicGF0aCI6Ii84OTM5NTU0MS8yNzc4NjcwNzMtYjI5NTM3MTgtM2FjOS00ZjM5LWFmOGItNjNmMmRmOWVlOGU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAyNTg1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY3NGVhZGIwY2Q4YjE2MjJkMzAzMTk3MzlmNGEzNGJkMzBlMzk2YzAzYTIzYWEwMjY3YzNiOGU0NjQ1MzRmZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.WQ6RjIkv8lbg9H_y85qvwHBm0NZlnv4BBdebi9eQIEs",
+        "https://github.com/nurkholiqaganihafid/Online_Fashion_Data_Analysis/assets/89395541/b2953718-3ac9-4f39-af8b-63f2df9ee8e4",
       url: "https://github.com/nurkholiqaganihafid/Online_Fashion_Data_Analysis",
       description:
         "Evaluated company sales performance, understood the most and least sold fashion products, and gained a deeper understanding of customer demographics.",
@@ -53,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology2: "streamlit",
       technology3: "tableau",
       image:
-        "https://private-user-images.githubusercontent.com/89395541/280511353-ce59b58d-0373-4054-9dcf-4d1bdd24fc5c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNTA1MTQsIm5iZiI6MTcwMjM1MDIxNCwicGF0aCI6Ii84OTM5NTU0MS8yODA1MTEzNTMtY2U1OWI1OGQtMDM3My00MDU0LTlkY2YtNGQxYmRkMjRmYzVjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAzMDMzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhOGRiMTU4MDc3MDE1Y2ExN2M3N2Y2ZmQxY2Q2MmZjZDk5OTI5OTM1YTMxOTM5Mjk5YTY5OThjYmUyODI5OGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.JD2ym1UYqLHhL9AEkLzAsqHD2VZJhMgfCi4hPw9YFic",
+        "https://github.com/nurkholiqaganihafid/Online_Fashion_Data_Analysis/assets/89395541/ce59b58d-0373-4054-9dcf-4d1bdd24fc5c",
       url: "https://github.com/nurkholiqaganihafid/Analysis_Student_Dropout_Rates",
       description:
         "Understood school dropout rates, identified related factors, and provided recommendations for increasing student graduation rates.",
@@ -86,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
       difficulty: "intermediate",
       technology1: "python",
       image:
-        "https://private-user-images.githubusercontent.com/89395541/257991767-f97ac9c7-112a-42f1-9fee-0284608ef98a.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzNTIxMjgsIm5iZiI6MTcwMjM1MTgyOCwicGF0aCI6Ii84OTM5NTU0MS8yNTc5OTE3NjctZjk3YWM5YzctMTEyYS00MmYxLTlmZWUtMDI4NDYwOGVmOThhLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEyVDAzMzAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmM2M4YjE4Mzc5M2ZiZmUwNjNjZmNhZTFjNTJhZWRjNmI4ZTc3MzFiZmNlZjQ1NmViN2EwZGVmMzQxMGVjYzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.T-9ta5PEX8u4_zZ8Qo0J1RKF7PUBbW-DCf4MXg9EzLo",
+        "https://github.com/nurkholiqaganihafid/Time_Series_Covid19_World_Vaccination_Progress/assets/89395541/f97ac9c7-112a-42f1-9fee-0284608ef98a",
       url: "https://github.com/nurkholiqaganihafid/Time_Series_Covid19_World_Vaccination_Progress",
       description:
         "Analyzed daily COVID-19 vaccination trends using a time series approach with the LSTM model.",
