@@ -1,13 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
-      name: "Customer Engagement Analysis",
-      difficulty: "-",
+      name: "Customer Engagement Analysis in Excel",
+      difficulty: "beginner",
       technology1: "excel",
-      image: "assets/image/dummy-cover.jpg",
-      url: "#",
-      description: "It's finished but not uploaded yet",
-      status: "in progress",
+      image:
+        "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/assets/89395541/5280ca7b-3913-46b8-8668-8e6f604fc6c8",
+      url: "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/tree/main",
+      description:
+        "Provided insight into the effectiveness of adding new features to the platform and assisted in decision-making to increase student engagement.",
+      status: "completed",
     },
     {
       name: "SQL",
