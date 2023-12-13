@@ -1,6 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Baby Care Product Analysis Using Pivot Tables in Excel",
+      difficulty: "advanced",
+      technology1: "excel",
+      image:
+        "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/assets/89395541/07eaa8b0-6485-4c21-b416-071c8d9fdf44",
+      url: "#",
+      description: "It's finished but not uploaded yet",
+      status: "in progress",
+    },
+    {
+      name: "Football Transfers Analysis in Excel",
+      difficulty: "intermediate",
+      technology1: "excel",
+      image:
+        "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/assets/89395541/ec1c8bfb-cdbe-4687-b0ff-a981a9ba62c3",
+      url: "#",
+      description: "It's finished but not uploaded yet",
+      status: "in progress",
+    },
+    {
       name: "Customer Engagement Analysis in Excel",
       difficulty: "beginner",
       technology1: "excel",
