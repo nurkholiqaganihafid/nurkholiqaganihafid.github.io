@@ -16,8 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "excel",
       image:
         "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/assets/89395541/ec1c8bfb-cdbe-4687-b0ff-a981a9ba62c3",
-      url: "#",
-      description: "It's finished but not uploaded yet",
+      url: "https://github.com/nurkholiqaganihafid/football-transfers-analysis-in-excel",
+      description:
+        "It's been uploaded, but there's no explanation yet in README.md",
       status: "in progress",
     },
     {
