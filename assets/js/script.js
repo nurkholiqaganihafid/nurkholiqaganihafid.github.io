@@ -34,12 +34,15 @@ document.addEventListener("DOMContentLoaded", function () {
       status: "completed",
     },
     {
-      name: "SQL",
-      difficulty: "-",
+      name: "Calculating Free-to-Paid Conversion Rate with SQL",
+      difficulty: "beginner",
       technology1: "sql",
-      image: "assets/image/dummy-cover.jpg",
-      url: "#",
-      description: "in progress",
+      technology2: "python",
+      image:
+        "https://github.com/nurkholiqaganihafid/calculating-free-to-paid-conversion-rate-with-sql/assets/89395541/6327af5c-add8-456b-a948-779155182dd6",
+      url: "https://github.com/nurkholiqaganihafid/calculating-free-to-paid-conversion-rate-with-sql",
+      description:
+        "Estimated the fraction of students who purchase a subscription after starting college, namely the conversion rate from free to paid among engaged students, calculated several other key metrics, and analyzed the results.",
       status: "in progress",
     },
     {
@@ -164,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //   technology1: "",
     //   technology2: "",
     //   technology3: "",
-    //   image: "",
+    //   image: "assets/image/dummy-cover.jpg",
     //   url: "",
     //   description: "",
     //   status: "completed",
