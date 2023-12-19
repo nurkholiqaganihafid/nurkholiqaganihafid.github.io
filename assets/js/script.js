@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
       difficulty: "advanced",
       technology1: "excel",
       image:
-        "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/assets/89395541/07eaa8b0-6485-4c21-b416-071c8d9fdf44",
-      url: "#",
-      description: "It's finished but not uploaded yet",
+        "https://github.com/nurkholiqaganihafid/baby-care-product-analysis-using-pivot-tables-in-excel/assets/89395541/d7b87157-0520-48f1-bae7-ade46cde1c7d",
+      url: "https://github.com/nurkholiqaganihafid/baby-care-product-analysis-using-pivot-tables-in-excel",
+      description:
+        "Worked with real-world FMCG data in the baby care segment to derive structured reports, giving decision-makers the flexibility to analyze performance.</p>There is no explanation yet in README.txt",
       status: "in progress",
     },
     {
@@ -15,10 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
       difficulty: "intermediate",
       technology1: "excel",
       image:
-        "https://github.com/nurkholiqaganihafid/customer-engagement-analysis-in-excel/assets/89395541/ec1c8bfb-cdbe-4687-b0ff-a981a9ba62c3",
+        "https://github.com/nurkholiqaganihafid/football-transfers-analysis-in-excel/assets/89395541/8056368b-8a4a-4818-8996-6c096f15b9f3",
       url: "https://github.com/nurkholiqaganihafid/football-transfers-analysis-in-excel",
       description:
-        "It's been uploaded, but there's no explanation yet in README.md",
+        "Understanding football economics by analyzing international transfer data in football in the US, spanning two seasons (2021/2022 and 2022/2023).</p>There is no explanation yet in README.txt",
       status: "in progress",
     },
     {
