@@ -36,14 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       name: "Calculating Free-to-Paid Conversion Rate with SQL",
       difficulty: "beginner",
-      technology1: "sql",
+      technology1: "SQL",
       technology2: "python",
       image:
         "https://github.com/nurkholiqaganihafid/calculating-free-to-paid-conversion-rate-with-sql/assets/89395541/6327af5c-add8-456b-a948-779155182dd6",
       url: "https://github.com/nurkholiqaganihafid/calculating-free-to-paid-conversion-rate-with-sql",
       description:
         "Estimated the fraction of students who purchase a subscription after starting college, namely the conversion rate from free to paid among engaged students, calculated several other key metrics, and analyzed the results.",
-      status: "in progress",
+      status: "completed",
     },
     {
       name: "E-Commerce Marketplace Analysis",
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Predict daily sales of Kalbe products",
       difficulty: "advanced",
       technology1: "python",
-      technology2: "sql",
+      technology2: "SQL",
       technology3: "tableau",
       image:
         "https://github.com/nurkholiqaganihafid/Kalbe_Nutritionals_Data_Scientist_Project/assets/89395541/043615cf-8be3-4885-984e-b8a3df66eab9",
