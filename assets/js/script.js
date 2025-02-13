@@ -1,6 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Exploring User Engagement in Newsfeed Features",
+      difficulty: "beginner",
+      technology1: "tableau",
+      image:
+        "https://github.com/user-attachments/assets/4b0254d7-9b24-42a0-a1c2-39ba24d65541",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/ExploringUserEngagementinNewsfeedFeatures/Dashboard2",
+      description:
+        "The aim of this Newsfeed Analysis is to determine which type resonates more with audience and identify potential issues with these features, along with suggestions for enhancements. These visualizations provide crucial information about the newsfeed and how the users react to it.",
+      status: "completed",
+    },
+    {
       name: "Baby Care Product Analysis Using Pivot Tables in Excel",
       difficulty: "advanced",
       technology1: "excel",
