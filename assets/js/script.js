@@ -1,6 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Sales and Profitability Analysis in FMCG Industry",
+      difficulty: "intermediate",
+      technology1: "tableau",
+      image:
+        "https://github.com/user-attachments/assets/68cdd397-6104-422b-acc4-e559c8176700",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/BusinessPerformanceDashboardSalesProfitandDistributionInsights/DrinkoReport",
+      description:
+        "The purpose of this analysis is to understand business performance in the Fast Moving Consumer Goods (FMCG) industry in order to increase profitability, understand customer needs and optimize distribution and marketing strategies.",
+      status: "completed",
+    },
+    {
       name: "Exploring User Engagement in Newsfeed Features",
       difficulty: "beginner",
       technology1: "tableau",
