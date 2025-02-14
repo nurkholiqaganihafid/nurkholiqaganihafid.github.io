@@ -1,6 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Student Onboarding Survey Analysis",
+      difficulty: "intermediate",
+      technology1: "tableau",
+      image:
+        "https://github.com/user-attachments/assets/5f147685-c732-4766-b39a-20f15a859b91",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/StudentOnboardingAnalysis_17392546093760/Dashboard1",
+      description:
+        "This analysis provides valuable insights into how students interact with the platform during onboarding, as well as the factors that influence their engagement. By understanding students’ sources of information, career goals, and learning interests, companies can improve onboarding strategies, tailor curriculum, and optimize marketing campaigns to increase student engagement and retention on these e-learning platforms.",
+      status: "completed",
+    },
+    {
       name: "Sales and Profitability Analysis in FMCG Industry",
       difficulty: "intermediate",
       technology1: "tableau",
