@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Career Track Analysis: Student Enrollments & Completions (2022)",
+      difficulty: "beginner",
+      technology1: "SQL",
+      technology2: "tableau",
+      image:
+        "https://github.com/user-attachments/assets/90f61ad3-ce58-4361-a5ce-7ca91f4e7a3e",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/CareerTrackAnalysisStudentEnrollmentsandCompletions/Dashboard2FIX",
+      description:
+        "This dashboard is designed to analyze the enrollment and completion patterns of Career Tracks, as well as identify factors that influence students' success in completing the program. This analysis provides valuable insights for the company to develop more effective strategies to enhance the learning experience. Additionally, it helps students choose the most suitable learning strategies and subscription plans based on their goals.",
+      status: "completed",
+    },
+    {
       name: "Student Onboarding Survey Analysis",
       difficulty: "intermediate",
       technology1: "tableau",
