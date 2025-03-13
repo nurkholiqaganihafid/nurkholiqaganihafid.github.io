@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Employee Gender Distribution Analysis",
+      difficulty: "intermediate",
+      technology1: "SQL",
+      technology2: "tableau",
+      image:
+        "https://github.com/user-attachments/assets/7cb12771-9ef1-4cd4-8ccf-0bd5837cebfb",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/EmployeeDistributionAnalysisSince1990/Dashboard1",
+      description:
+        "This analysis reveals the gender distribution in companies from 1990 to 2002, highlighting the number of male and female employees and their representation in managerial positions in various departments. In addition, this analysis evaluates the gender pay gap and allows exploration of compensation trends in each division through department filters.",
+      status: "completed",
+    },
+    {
       name: "Career Track Analysis: Student Enrollments & Completions (2022)",
       difficulty: "beginner",
       technology1: "SQL",
