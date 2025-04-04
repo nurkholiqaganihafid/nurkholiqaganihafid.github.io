@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const projects = [
     {
+      name: "Customer Interaction and Experience Analysis",
+      difficulty: "advanced",
+      technology1: "SQL",
+      technology2: "tableau",
+      image:
+        "https://shorturl.at/IYihG",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/CustomerInteractionandExperienceAnalysis/Overview",
+      description:
+        "Analyzing user behavior (students) on an online learning platform to understand their level of engagement, distinguish the behavior between free and paid users, measure the effectiveness of learning materials, and evaluate trends in exam participation.",
+      status: "in progress",
+    },
+    {
       name: "Employee Gender Distribution Analysis",
       difficulty: "intermediate",
       technology1: "SQL",
