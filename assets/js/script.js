@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "SQL",
       technology2: "tableau",
       image:
-        "https://shorturl.at/IYihG",
+        "https://private-user-images.githubusercontent.com/89395541/430199833-e0af56fb-f293-4465-a5f7-58a7ec773f16.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3MzQyMzQsIm5iZiI6MTc0MzczMzkzNCwicGF0aCI6Ii84OTM5NTU0MS80MzAxOTk4MzMtZTBhZjU2ZmItZjI5My00NDY1LWE1ZjctNThhN2VjNzczZjE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA0MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNDA0VDAyMzIxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBkMWY2ODJhNTllZjkxNmUyYTc1ZGE0NjNhMmY1YWU1MTliZGRjM2I5Mjk0MGMxNTQyZWU2Y2QxYTczZGZmOGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jbopWxr6vInGfQzqiiCqhDFx3n3LggOGrEPW7d113EU",
       url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/CustomerInteractionandExperienceAnalysis/Overview",
       description:
         "Analyzing user behavior (students) on an online learning platform to understand their level of engagement, distinguish the behavior between free and paid users, measure the effectiveness of learning materials, and evaluate trends in exam participation.",
