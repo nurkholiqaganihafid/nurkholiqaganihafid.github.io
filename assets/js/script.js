@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       technology1: "SQL",
       technology2: "tableau",
       image:
-        "https://github.com/user-attachments/assets/e0af56fb-f293-4465-a5f7-58a7ec773f16",
+        "https://shorturl.at/IYihG",
       url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/CustomerInteractionandExperienceAnalysis/Overview",
       description:
         "Analyzing user behavior (students) on an online learning platform to understand their level of engagement, distinguish the behavior between free and paid users, measure the effectiveness of learning materials, and evaluate trends in exam participation.",
