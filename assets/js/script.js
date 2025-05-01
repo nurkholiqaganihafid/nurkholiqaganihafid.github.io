@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/CustomerInteractionandExperienceAnalysis/Overview",
       description:
         "Analyzing user behavior (students) on an online learning platform to understand their level of engagement, distinguish the behavior between free and paid users, measure the effectiveness of learning materials, and evaluate trends in exam participation.",
-      status: "in progress",
+      status: "completed",
     },
     {
       name: "Employee Gender Distribution Analysis",
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
       url: "https://github.com/nurkholiqaganihafid/baby-care-product-analysis-using-pivot-tables-in-excel",
       description:
         "Worked with real-world FMCG data in the baby care segment to derive structured reports, giving decision-makers the flexibility to analyze performance.</p>There is no explanation yet in README.txt",
-      status: "in progress",
+      status: "completed",
     },
     {
       name: "Football Transfers Analysis in Excel",
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
       url: "https://github.com/nurkholiqaganihafid/football-transfers-analysis-in-excel",
       description:
         "Understanding football economics by analyzing international transfer data in football in the US, spanning two seasons (2021/2022 and 2022/2023).</p>There is no explanation yet in README.txt",
-      status: "in progress",
+      status: "completed",
     },
     {
       name: "Customer Engagement Analysis in Excel",
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //   image: "assets/image/dummy-cover.jpg",
     //   url: "",
     //   description: "",
-    //   status: "completed",
+    //   status: "completed or in progress",
     // },
     // Add more projects as needed
   ];
