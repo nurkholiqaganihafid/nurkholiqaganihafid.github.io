@@ -26,6 +26,17 @@ document.addEventListener("DOMContentLoaded", function () {
       status: "completed",
     },
     {
+      name: "Customer Churn Analysis – Databel Telecom",
+      difficulty: "intermediate",
+      technology1: "tableau",
+      image:
+        "https://github.com/user-attachments/assets/09c60d5a-14ef-4a44-ae2d-ace5742445b4",
+      url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/CustomerChurnAnalysisDatabelTelecom/Overview",
+      description:
+        "This analysis aims to understand the patterns and key factors influencing customer churn at the fictional telecom company, Databel. Using interactive visualizations in Tableau, it helps identify customer segments with the highest churn risk and provides insights to support more effective retention strategies.",
+      status: "completed",
+    },
+    {
       name: "Employee Gender Distribution Analysis",
       difficulty: "intermediate",
       technology1: "SQL",
