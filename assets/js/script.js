@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       url: "https://public.tableau.com/app/profile/nurkholiq.agani.hafid/viz/GrowthDataAnalysis/Dashboard1",
       description:
         "This dashboard presents a customer growth analysis over time, leveraging SQL and Python to process data from Customer 365. The final visualizations are built in Tableau to deliver a comprehensive view of business performance on a monthly basis.",
-      status: "in progress",
+      status: "completed",
     },
     {
       name: "Customer Interaction and Experience Analysis",
